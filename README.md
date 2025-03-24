@@ -1,1 +1,1 @@
-# symfony-async-message-bundle
+# Symfony异步消息模块

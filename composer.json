@@ -1,0 +1,14 @@
+{
+  "name": "tourze/symfony-async-message-bundle",
+  "description": "Symfony异步消息模块",
+  "license": "MIT",
+  "require": {
+    "php": "^8.1",
+    "symfony/messenger": "^6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tourze\\Symfony\\AsyncMessageBundle\\": "src"
+    }
+  }
+}
