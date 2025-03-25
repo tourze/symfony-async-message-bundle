@@ -1,6 +1,6 @@
 <?php
 
-namespace Tourze\Symfony\AsyncMessageBundle;
+namespace Tourze\Symfony\AsyncMessage;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

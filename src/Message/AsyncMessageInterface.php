@@ -1,6 +1,6 @@
 <?php
 
-namespace Tourze\Symfony\AsyncMessageBundle\Message;
+namespace Tourze\Symfony\AsyncMessage\Message;
 
 /**
  * 异步队列

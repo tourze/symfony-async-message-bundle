@@ -1,6 +1,6 @@
 <?php
 
-namespace Tourze\Symfony\AsyncMessageBundle\Stamp;
+namespace Tourze\Symfony\AsyncMessage\Stamp;
 
 use Symfony\Component\Messenger\Stamp\NonSendableStampInterface;
 
