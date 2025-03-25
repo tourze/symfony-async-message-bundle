@@ -7,14 +7,12 @@ use Symfony\Bundle\FrameworkBundle\Console\Application;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Output\NullOutput;
 use Symfony\Component\HttpKernel\KernelInterface;
-use Symfony\Component\Messenger\Attribute\AsMessageHandler;
 use Symfony\Component\Messenger\Exception\RecoverableMessageHandlingException;
 use Tourze\Symfony\AsyncMessage\Message\RunCommandMessage;
 
 /**
  * @see https://symfony.com/doc/current/console/command_in_controller.html
  */
-#[AsMessageHandler(fromTransport: 'async')]
 class RunCommandHandler
 {
     private Application $application;
